@@ -2,7 +2,7 @@
 # @Author: Your name
 # @Date:   2022-05-28 09:44:33
 # @Last Modified by:   Your name
-# @Last Modified time: 2022-05-30 20:54:42
+# @Last Modified time: 2022-05-30 21:51:07
 #%%
 # TensorFlow and tf.keras
 import tensorflow as tf
@@ -154,7 +154,7 @@ def model_for_each_layer(train, test, dict, layer_name):
     model_coarse_prediction_labels[most_coarse_layer_pred] = model_coarse_prediction_labels[most_coarse_layer_pred].map(layer_mapped)
 
     # Merge Coarse predictions back to test dataframe
-    test = pd.concat([test, model_coarse_prediction_labels], axis=1)
+    test = test.join(model_coarse_prediction_labels)
     
     # Split dataframe into sub-category (clothes and goods, in this case)
     try:
@@ -173,22 +173,24 @@ def model_for_each_layer(train, test, dict, layer_name):
     return train_split, test_split
 
 
+
 #%%
+# Coarse label
 coarse_train, coarse_test = model_for_each_layer(train100, test, extra_layers, 'coarse_label')
 
 
 #%%
+# Medium label
 medium_train = {name: pd.DataFrame() for name in extra_layers.keys()}
 medium_test = {name: pd.DataFrame() for name in extra_layers.keys()}
-#%%
+
 for k in extra_layers:
     medium_train[k], medium_test[k] = model_for_each_layer(
         coarse_train[k], coarse_test[k], extra_layers[k], 'medium_label')
-    # print(k)
-    print(coarse_test[k], '*******')
-    print(medium_test[k], '-------')
+
 
 #%%
+# Fine label
 fine_train = {name: pd.DataFrame() for name in extra_layers.keys()}
 fine_test = {name: pd.DataFrame() for name in extra_layers.keys()}
 
@@ -206,8 +208,11 @@ for k in extra_layers:
 # Append fine_test dataframe back together
 final_test = pd.DataFrame(columns=list(medium_test['Goods']['Shoes'].columns))
 for k in extra_layers:
-    final_test = pd.concat([final_test,medium_test[k]])
-    print('******')
+    for l in extra_layers[k]:
+        final_test = pd.concat([final_test, fine_test[k][l]])
+        print(final_test.shape)
+
+final_test = final_test[final_test['fine_label'].notnull()]
 # final_test = pd.concat([final_test, medium_test['Goods']['Shoes'], medium_test['Goods']['Accessories']])
 
 # final_test = pd.DataFrame(columns=list(coarse_test['Clothes'].columns))
