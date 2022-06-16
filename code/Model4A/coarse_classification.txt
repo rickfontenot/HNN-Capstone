@@ -1,0 +1,11 @@
+Total Training Time All levels= 0:06:54.960652
+Coarse Level Accuracy =  0.9949
+              precision    recall  f1-score   support
+
+     Clothes       0.99      1.00      1.00      6000
+       Goods       0.99      0.99      0.99      4000
+
+    accuracy                           0.99     10000
+   macro avg       0.99      0.99      0.99     10000
+weighted avg       0.99      0.99      0.99     10000
+
