@@ -1,0 +1,15 @@
+Total Training Time All levels= 72.857829
+Medium Level Accuracy =  0.9374
+              precision    recall  f1-score   support
+
+ Accessories       0.99      0.96      0.97      1000
+     Bottoms       0.99      0.97      0.98      1000
+     Dresses       0.87      0.92      0.89      1000
+      Outers       0.79      0.79      0.79      1000
+       Shoes       1.00      1.00      1.00      3000
+        Tops       0.92      0.91      0.91      3000
+
+    accuracy                           0.94     10000
+   macro avg       0.93      0.93      0.93     10000
+weighted avg       0.94      0.94      0.94     10000
+
