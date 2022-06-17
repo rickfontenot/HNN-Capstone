@@ -1,0 +1,61 @@
+﻿Model,class,precision,recall,f1-score,support
+1-Flat (10 epochs),T-shirt/top,0.95,0.95,0.95,1000
+1-Flat (10 epochs),Trouser,0.99,0.96,0.97,1000
+1-Flat (10 epochs),Pullover,0.79,0.79,0.79,1000
+1-Flat (10 epochs),Dress,0.87,0.92,0.89,1000
+1-Flat (10 epochs),Coat,0.81,0.74,0.78,1000
+1-Flat (10 epochs),Sandal,0.99,0.94,0.96,1000
+1-Flat (10 epochs),Shirt,0.61,0.75,0.67,1000
+1-Flat (10 epochs),Sneaker,0.93,0.97,0.95,1000
+1-Flat (10 epochs),Bag,0.86,0.73,0.79,1000
+1-Flat (10 epochs),Ankle boot,0.99,0.97,0.98,1000
+2-HNN (10 epochs),Ankle boot,0.98,0.95,0.96,1000
+2-HNN (10 epochs),Bag,0.99,0.95,0.97,1000
+2-HNN (10 epochs),Coat,0.83,0.72,0.77,1000
+2-HNN (10 epochs),Dress,0.87,0.92,0.89,1000
+2-HNN (10 epochs),Pullover,0.81,0.77,0.79,1000
+2-HNN (10 epochs),Sandal,0.96,0.97,0.97,1000
+2-HNN (10 epochs),Shirt,0.62,0.76,0.69,1000
+2-HNN (10 epochs),Sneaker,0.95,0.96,0.95,1000
+2-HNN (10 epochs),T-shirt/top,0.85,0.82,0.83,1000
+2-HNN (10 epochs),Trouser,0.99,0.97,0.98,1000
+3-Flat (early stop),T-shirt/top,0.97,0.95,0.96,1000
+3-Flat (early stop),Trouser,0.99,0.95,0.97,1000
+3-Flat (early stop),Pullover,0.73,0.87,0.79,1000
+3-Flat (early stop),Dress,0.9,0.88,0.89,1000
+3-Flat (early stop),Coat,0.79,0.77,0.78,1000
+3-Flat (early stop),Sandal,0.98,0.96,0.97,1000
+3-Flat (early stop),Shirt,0.73,0.62,0.67,1000
+3-Flat (early stop),Sneaker,0.93,0.97,0.95,1000
+3-Flat (early stop),Bag,0.83,0.86,0.84,1000
+3-Flat (early stop),Ankle boot,0.99,0.97,0.98,1000
+4A-HNN (hierarchyA),Ankle boot,0.95,0.96,0.96,1000
+4A-HNN (hierarchyA),Bag,0.98,0.96,0.97,1000
+4A-HNN (hierarchyA),Coat,0.82,0.76,0.79,1000
+4A-HNN (hierarchyA),Dress,0.87,0.91,0.89,1000
+4A-HNN (hierarchyA),Pullover,0.76,0.82,0.79,1000
+4A-HNN (hierarchyA),Sandal,0.98,0.95,0.97,1000
+4A-HNN (hierarchyA),Shirt,0.72,0.69,0.7,1000
+4A-HNN (hierarchyA),Sneaker,0.94,0.96,0.95,1000
+4A-HNN (hierarchyA),T-shirt/top,0.82,0.85,0.83,1000
+4A-HNN (hierarchyA),Trouser,0.99,0.97,0.98,1000
+4B-HNN (hierarchyB),Ankle boot,0.96,0.96,0.96,1000
+4B-HNN (hierarchyB),Bag,0.98,0.96,0.97,1000
+4B-HNN (hierarchyB),Coat,0.76,0.85,0.8,1000
+4B-HNN (hierarchyB),Dress,0.88,0.9,0.89,1000
+4B-HNN (hierarchyB),Pullover,0.82,0.77,0.79,1000
+4B-HNN (hierarchyB),Sandal,0.97,0.96,0.97,1000
+4B-HNN (hierarchyB),Shirt,0.74,0.68,0.71,1000
+4B-HNN (hierarchyB),Sneaker,0.95,0.97,0.96,1000
+4B-HNN (hierarchyB),T-shirt/top,0.83,0.85,0.84,1000
+4B-HNN (hierarchyB),Trouser,0.99,0.98,0.99,1000
+4C-HNN (hierarchyC),Ankle boot,0.96,0.96,0.96,1000
+4C-HNN (hierarchyC),Bag,0.98,0.96,0.97,1000
+4C-HNN (hierarchyC),Coat,0.83,0.79,0.81,1000
+4C-HNN (hierarchyC),Dress,0.87,0.91,0.89,1000
+4C-HNN (hierarchyC),Pullover,0.81,0.8,0.8,1000
+4C-HNN (hierarchyC),Sandal,0.97,0.96,0.97,1000
+4C-HNN (hierarchyC),Shirt,0.7,0.7,0.7,1000
+4C-HNN (hierarchyC),Sneaker,0.95,0.97,0.96,1000
+4C-HNN (hierarchyC),T-shirt/top,0.83,0.84,0.84,1000
+4C-HNN (hierarchyC),Trouser,0.98,0.98,0.98,1000
