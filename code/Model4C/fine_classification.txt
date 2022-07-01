@@ -1,19 +1,19 @@
-Total Training Time All levels= 0:07:24.393300
-Fine Level Accuracy =  0.8849
+Total Training Time All levels= 0:06:42.667614
+Fine Level Accuracy =  0.8884
               precision    recall  f1-score   support
 
-  Ankle boot       0.95      0.96      0.96      1000
-         Bag       0.98      0.97      0.97      1000
-        Coat       0.76      0.84      0.80      1000
-       Dress       0.92      0.87      0.90      1000
-    Pullover       0.79      0.81      0.80      1000
-      Sandal       0.98      0.95      0.97      1000
-       Shirt       0.73      0.66      0.69      1000
-     Sneaker       0.93      0.96      0.95      1000
- T-shirt/top       0.83      0.85      0.84      1000
-     Trouser       0.99      0.97      0.98      1000
+  Ankle boot       0.96      0.96      0.96      1000
+         Bag       0.98      0.96      0.97      1000
+        Coat       0.83      0.79      0.81      1000
+       Dress       0.87      0.91      0.89      1000
+    Pullover       0.81      0.80      0.80      1000
+      Sandal       0.97      0.96      0.97      1000
+       Shirt       0.70      0.70      0.70      1000
+     Sneaker       0.95      0.97      0.96      1000
+ T-shirt/top       0.83      0.84      0.84      1000
+     Trouser       0.98      0.98      0.98      1000
 
-    accuracy                           0.88     10000
-   macro avg       0.89      0.88      0.88     10000
-weighted avg       0.89      0.88      0.88     10000
+    accuracy                           0.89     10000
+   macro avg       0.89      0.89      0.89     10000
+weighted avg       0.89      0.89      0.89     10000
 

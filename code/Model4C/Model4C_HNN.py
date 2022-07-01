@@ -13,6 +13,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from datetime import datetime, timedelta
 
+#np.random.seed(123)
+#tf.random.set_seed(42)
+
 #%%
 # Set a seed value
 seed_value= 12321 
@@ -39,6 +42,7 @@ K.set_session(sess)
 total_train_time=timedelta(seconds=0)
 print(total_train_time)
 
+
 #%%
 # Read in data
 fashion_mnist = tf.keras.datasets.fashion_mnist
@@ -53,13 +57,12 @@ test_images = test_images / 255.0
 # From finer to coarse layer
 # Only allows 2 extra layers
 extra_layers = {
-        'Clothes' : {'Shirts' : ['T-shirt/top','Pullover','Shirt'],
-                     'Bottoms' : ['Trouser'],
-                     'Other' : ['Dress','Coat'],
+        'Clothes' : {'T-Shirts' : ['T-shirt/top'],
+                    'Other Tops' : ['Pullover', 'Dress', 'Coat','Shirt'],
+                     'Bottoms' : ['Trouser']
         }, 
-        'Shoes' : {'Shoes' : ['Sandal','Sneaker','Ankle boot']
-        },
-        'Goods' : {'Accessories' : ['Bag']
+        'Goods' : {'Shoes' : ['Sandal','Sneaker','Ankle boot'],
+                   'Accessories' : ['Bag']
         }
 }
 
@@ -178,8 +181,6 @@ def model_for_each_layer(train, test, dict, layer_name):
     model_coarse__end_time = datetime.now()
     model_coarse__train_time = model_coarse__end_time - model_coarse_start_time
     print("Model-Coarse Training Time = ", model_coarse__train_time)
-    total_train_time = total_train_time + model_coarse__train_time
-
 
     # Make prediction on test set
     test_flattened = test.iloc[:,4:788]
@@ -187,6 +188,7 @@ def model_for_each_layer(train, test, dict, layer_name):
     model_coarse_predictions = model_coarse_probbability_model.predict(test_flattened)
     model_coarse_prediction_label = np.argmax(model_coarse_predictions, axis=1)
     print(model_coarse_prediction_label)
+    total_train_time = total_train_time + model_coarse__train_time
     
     # Add labels mapped to predictions
     most_coarse_layer_pred = layer_name + '_prediction'
@@ -244,7 +246,7 @@ for k in extra_layers:
 
 #%%
 # Append fine_test dataframe back together
-fine_final_test = pd.DataFrame(columns=list(fine_test['Goods']['Accessories']['Bag'].columns))
+fine_final_test = pd.DataFrame(columns=list(fine_test['Goods']['Shoes']['Sandal'].columns))
 for k in extra_layers:
     for l in extra_layers[k]:
         for m in extra_layers[k][l]:
@@ -252,7 +254,7 @@ for k in extra_layers:
             print(k,l,m,fine_final_test.shape, fine_test[k][l][m].shape)
 
 #%%
-medium_final_test = pd.DataFrame(columns=list(medium_test['Goods']['Accessories'].columns))
+medium_final_test = pd.DataFrame(columns=list(medium_test['Goods']['Shoes'].columns))
 for k in extra_layers:
     for l in extra_layers[k]:
         medium_final_test = pd.concat([medium_final_test, medium_test[k][l]])
