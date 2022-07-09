@@ -1,6 +1,6 @@
 # Hierachical Neural Networks Built with TensorFlow
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/26xBtSyoi5hUUkCEo/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/rk1ICNgJaHUFRBwGKV/giphy.gif" width="480"/>
   <div id="badges"  align="center">
     <a href=[Joseph Lazarus]"https://www.linkedin.com/in/josephlazarus1/">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white&label=Joseph Lazarus">
