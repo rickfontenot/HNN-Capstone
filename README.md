@@ -2,9 +2,7 @@
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/26xBtSyoi5hUUkCEo/giphy.gif" width="500"/>
   <div id="badges"  align="center">
-    <a [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](your-linkedin-url)>
-    </a>
-    <a href="https://www.linkedin.com/in/josephlazarus1/">
+    <a href=[Joseph Lazarus]"https://www.linkedin.com/in/josephlazarus1/">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white&label=Joseph Lazarus">
     </a>
     <a href="https://www.linkedin.com/in/rickfontenot/">
@@ -15,12 +13,6 @@
     </a>
   <br><img src="https://komarev.com/ghpvc/?username=rickfontenot&style=flat-square&color=blue" alt=""/>
  </div>
- <h1>
-    Hey There
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-  </h1>
-</div>
-
 ---
 
 ### :page_with_curl: About Our Research :
@@ -31,7 +23,7 @@ We compare the Performance of a Traditional Neural Network to a Hierachical Neur
 
 - :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](your-linkedin-url)
+- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)]([your-linkedin-url](https://www.linkedin.com/in/josephlazarus1))
 
 ---
 
