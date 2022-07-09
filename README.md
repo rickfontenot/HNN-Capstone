@@ -2,6 +2,8 @@
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/26xBtSyoi5hUUkCEo/giphy.gif" width="500"/>
   <div id="badges"  align="center">
+    <a [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](your-linkedin-url)>
+    </a>
     <a href="https://www.linkedin.com/in/josephlazarus1/">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white&label=Joseph Lazarus">
     </a>
