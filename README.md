@@ -9,7 +9,7 @@
     <a href="https://www.linkedin.com/in/josephlazarus1/">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="Joseph_Lazarus Badge"/>
     </a>
-    <a href="ttps://www.linkedin.com/in/rick-fontenot-38b918b/">
+    <a href="ttps://www.linkedin.com/in/rick-fontenot/">
      <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
     </a>
     <a href="https://www.linkedin.com/in/purirudick/">
