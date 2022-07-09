@@ -21,8 +21,15 @@ We compare the Performance of a Traditional Neural Network to a Hierachical Neur
   
 - :dress: Use Fashion-MNIST data set to benchmark our results
 
-- :zap: Built custom wrapper for prediction pipeline auto-generated based on the dictionary
+- :zap: Built custom wrapper for prediction pipeline that auto-generates hierarchy based on the dictionary
+  
+- :open_book: Full Research Paper Available on SMU Data Science Journal
 
+  <div align="center">
+  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
+</div>
+
+  
 - :mailbox:How to reach us: [![Linkedin Badge](https://img.shields.io/badge/-Lazarus-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/josephlazarus1) * [![Linkedin Badge](https://img.shields.io/badge/-Rudick-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/purirudick) * [![Linkedin Badge](https://img.shields.io/badge/-Fontenot-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rickfontenot)
 
 ---
