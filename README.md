@@ -7,7 +7,7 @@
 
   <div id="badges"  align="center">
     <a href="https://www.linkedin.com/in/josephlazarus1/">
-      <img src="https://img.shields.io/badge/LinkedIn-blue?&label=Joseph Lazarusstyle=for-the-badge&logo&label=linkedin&logoColor=white">
+      <img src="https://img.shields.io/badge/LinkedIn-blue?&label=Joseph Lazarus?style=for-the-badge&logo&label=linkedin&logoColor=white">
     </a>
     <a href="https://www.linkedin.com/in/rickfontenot/">
      <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white&label=Rick Fontenot"/>
