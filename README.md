@@ -23,7 +23,7 @@ We compare the Performance of a Traditional Neural Network to a Hierachical Neur
 
 - :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)]([your-linkedin-url](https://www.linkedin.com/in/josephlazarus1))
+- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Lazarus-blue?style=flat&logo=Linkedin&logoColor=white)] (https://www.linkedin.com/in/josephlazarus1)
 
 ---
 
