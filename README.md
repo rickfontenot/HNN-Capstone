@@ -17,13 +17,13 @@
 
 ### :page_with_curl: About Our Research :
 We compare the Performance of a Traditional Neural Network to a Hierachical Neural Network <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif width="30">
-- :microscope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
+- :microscope: Use Open Source Library TensorFlow to compare Hierarchical Neuerl Network Performance to traditional Neural Netowrk Implementation
+  
+- :dress: Use Fashion-MNIST data set to benchmark our results
 
-- :seedling: Exploring Technical Content Writing.
+- :zap: Built custom wrapper for prediction pipeline auto-generated based on the dictionary
 
-- :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
-
-- :mailbox:How to reach us: [![Linkedin Badge](https://img.shields.io/badge/-Lazarus-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/josephlazarus1) * [![Linkedin Badge](https://img.shields.io/badge/-Rudick-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/purirudick) * [![Linkedin Badge](https://img.shields.io/badge/-Fotenot-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rickfontenot)
+- :mailbox:How to reach us: [![Linkedin Badge](https://img.shields.io/badge/-Lazarus-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/josephlazarus1) * [![Linkedin Badge](https://img.shields.io/badge/-Rudick-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/purirudick) * [![Linkedin Badge](https://img.shields.io/badge/-Fontenot-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rickfontenot)
 
 ---
 
