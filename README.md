@@ -16,7 +16,7 @@
 ---
 
 ### :page_with_curl: About Our Research :
-We compare the Performance of a Traditional Neural Network to a Hierachical Neural Network <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif width="30">
+We compare the Performance of a Traditional Neural Network to a Hierachical Neural Network
 - :microscope: Use Open Source Library TensorFlow to compare Hierarchical Neuerl Network Performance to traditional Neural Netowrk Implementation
   
 - :dress: Use Fashion-MNIST data set to benchmark our results
