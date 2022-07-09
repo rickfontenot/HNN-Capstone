@@ -1,3 +1,6 @@
-# HNN-Capstone
+# Hierachical Neural Networks Built with TensorFlow
 
-checking to see if i can edit
+
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/26xBtSyoi5hUUkCEo/giphy.gif" width="100"/>
+</div>
