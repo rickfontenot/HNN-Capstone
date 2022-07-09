@@ -15,9 +15,7 @@
     <a href="https://www.linkedin.com/in/purirudick/">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white&label=Puri Rudick"/>
     </a>
-  <a>
   <img src="https://komarev.com/ghpvc/?username=rickfontenot&style=flat-square&color=blue" alt=""/>
-  </a>
   </div>
   <h1>
     hey there
