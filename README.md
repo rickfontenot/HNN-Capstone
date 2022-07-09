@@ -21,8 +21,8 @@
 ---
 
 ### :page_with_curl: About Our Research :
-I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India.
-- :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
+We compare the Performance of a Traditional Neural Network to a Hierachical Neural Network <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif width="30">
+- :microscope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
 
 - :seedling: Exploring Technical Content Writing.
 
