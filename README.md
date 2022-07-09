@@ -5,7 +5,7 @@
   <img src="https://media.giphy.com/media/26xBtSyoi5hUUkCEo/giphy.gif" width="500"/>
 </div>
 
-  <div id="badges">
+  <div id="badges"  align="center">
     <a href="https://www.linkedin.com/in/josephlazarus1/">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="Joseph_Lazarus Badge"/>
     </a>
