@@ -12,11 +12,11 @@
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white&label=Puri Rudick"/>
     </a>
   <img src="https://komarev.com/ghpvc/?username=rickfontenot&style=flat-square&color=blue" alt=""/>
+ </div>
  <h1>
     Hey There
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   </h1>
-</div>
 </div>
 ---
 
