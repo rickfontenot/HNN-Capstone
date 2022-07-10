@@ -1,4 +1,4 @@
-# Hierachical Neural Networks Built with TensorFlow
+# Read Me: Hierachical Neural Networks Built with TensorFlow
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/26xBtSyoi5hUUkCEo/giphy.gif" width="500"/>
   <img src="https://media.giphy.com/media/S2azltVMwqjv56h00q/giphy.gif" width="480"/>
