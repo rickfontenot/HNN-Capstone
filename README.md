@@ -31,6 +31,6 @@ We compare the Performance of a Traditional Neural Network to a Hierachical Neur
 - :mailbox:How to reach us: [![Linkedin Badge](https://img.shields.io/badge/-Lazarus-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/josephlazarus1) * [![Linkedin Badge](https://img.shields.io/badge/-Rudick-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/purirudick) * [![Linkedin Badge](https://img.shields.io/badge/-Fontenot-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rickfontenot)
 
 ---
-<img src="https://giphy.com/gifs/machine-learning-deep-hnn-S2azltVMwqjv56h00q" />
+<img src="https://giphy.com/gifs/machine-learning-deep-hnn-S2azltVMwqjv56h00q.gif" />
 
   
