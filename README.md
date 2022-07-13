@@ -31,9 +31,9 @@ We compare the Performance of a Traditional Neural Network to a Hierachical Neur
 - :mailbox:How to reach us: [![Linkedin Badge](https://img.shields.io/badge/-Lazarus-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/josephlazarus1) * [![Linkedin Badge](https://img.shields.io/badge/-Rudick-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/purirudick) * [![Linkedin Badge](https://img.shields.io/badge/-Fontenot-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rickfontenot)
 
 - Navigating the code:
-  -- The notebook "HNN_manually" is a long form construction of an HNN using the first hierarchy. The advantage is each submodel can be tuned differently, the down side is it takes a lot of time and attention to change to a different hierarchical structure
-  -- The Model 1 & Model 3 folders are traditional flat NN models for the purpose of comparison in our study
-  -- The Model 4A, 4B, and 4C folders contain HNN models with different structures. The dictionary defines the hierarchy structure and can be changed to easily assess other structures as the models prediction pipelines are auto-generated. The down side is it's not easy to tune each submodel differently. Once a good hierarchy structure is identified, it could be implemented similar to the long form code in HNN_manually if you want to tune each submodel differently
+  - The notebook "HNN_manually" is a long form construction of an HNN using the first hierarchy. The advantage is each submodel can be tuned differently, the down side is it takes a lot of time and attention to change to a different hierarchical structure
+  - The Model 1 & Model 3 folders are traditional flat NN models for the purpose of comparison in our study
+  - The Model 4A, 4B, and 4C folders contain HNN models with different structures. The dictionary defines the hierarchy structure and can be changed to easily assess other structures as the models prediction pipelines are auto-generated. The down side is it's not easy to tune each submodel differently. Once a good hierarchy structure is identified, it could be implemented similar to the long form code in HNN_manually if you want to tune each submodel differently
 ---
 
 
